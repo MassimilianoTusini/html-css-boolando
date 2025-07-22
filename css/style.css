@@ -42,6 +42,7 @@ header{
 .logo{
     width: 10%;
     margin-right: 70px;
+    cursor: pointer;
 }
 
 .header-icons{
@@ -141,11 +142,33 @@ img{
     font-weight: lighter;
 }
 
+/* Regole Hover */
 
+.header-link:hover{
+    text-decoration: underline;
+}
 
+.first-photo:hover{
+    content: url(../img/1b.webp);  
+}
 
+.second-photo:hover{
+    content: url(../img/2b.webp);
+}
 
+.third-photo:hover{
+    content: url(../img/3b.webp);
+}
 
+.fourth-photo:hover{
+    content: url(../img/4b.webp);
+}
 
+.fifth-photo:hover{
+    content: url(../img/5b.webp);
+}
 
+.sixth-photo:hover{
+    content: url(../img/6b.webp);
+}
 
