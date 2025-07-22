@@ -54,14 +54,14 @@ header{
 /* Regole Container */
 
 .container{
-    max-width: 70%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
 /* Regole Layout Main */
 
 .main-flex{
-    padding-top: 70px;
+    padding-top: 80px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -70,6 +70,8 @@ header{
 .card{
     width: calc((100% / 3) - (25px / 3));
     position: relative;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
 }
 
 img{
@@ -82,7 +84,7 @@ img{
     color: white;
     padding: 5px 5px;
     position: absolute;
-    bottom: 40px;
+    bottom: 130px;
     font-size: 12px;
     font-weight: 600;
 }
@@ -108,3 +110,42 @@ img{
     padding: 10px 14px;
     font-size: 18px;
 }
+
+/* Regole Scritte Foto */
+
+.foto-description{
+    padding-bottom: 40px;
+    
+}
+
+.text-small{
+    font-size: 12px;
+}
+
+.text-big{
+    font-weight: 580;
+    font-size: 14px;
+}
+
+.price{
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+
+}
+
+.old-price{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: black;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
