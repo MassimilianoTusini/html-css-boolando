@@ -121,6 +121,7 @@ img{
 
 .text-small{
     font-size: 12px;
+    margin-right: 5px;
 }
 
 .text-big{
@@ -172,3 +173,55 @@ img{
     content: url(../img/6b.webp);
 }
 
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.footer-a:hover{
+    text-decoration: underline;
+}
+
+/* Regole Foooter */
+
+footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+/* Regole scritte Footer */
+
+.last-span{
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.info-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    flex-basis: 40%;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.footer-a{
+    color: white;
+    text-decoration: none;
+}
