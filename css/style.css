@@ -70,9 +70,6 @@ header{
 .card{
     width: calc((100% / 3) - (25px / 3));
     position: relative;
-    /* regole debug */
-    /* min-height: 350px;
-    background-color: grey; */
 }
 
 img{
@@ -83,6 +80,31 @@ img{
 
 .label{
     color: white;
-    padding: 2px 5px;
+    padding: 5px 5px;
     position: absolute;
+    bottom: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.discount{
+    margin-right: 2px;
+    background-color: red;
+}
+
+.sostenibility{
+    background-color: green;
+}
+
+.left{
+    left: 50px;
+}
+
+.heart{
+    background-color: white;
+    right: 0;
+    top: 10px;
+    position: absolute;
+    padding: 10px 14px;
+    font-size: 18px;
 }
