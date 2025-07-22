@@ -1,0 +1,58 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole Utili */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Regole Header */
+
+header{
+    position: fixed;
+    height: 60px;
+    background-color: #FF6801;
+    width: 100%;
+}
+
+.header-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    line-height: 60px;
+    
+}
+
+/* Regole Navbar */
+
+.header-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.logo{
+    width: 10%;
+    margin-right: 70px;
+}
+
+.header-icons{
+    color: white;
+    font-size: 16px;
+}
+
+
+
+/* Regole Container */
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
